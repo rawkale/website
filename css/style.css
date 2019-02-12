@@ -325,6 +325,17 @@ span {
   color: #71c55d;
 }
 
+@media screen and (max-width: 600px) {
+  #hero img {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
