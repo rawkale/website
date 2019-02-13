@@ -82,7 +82,8 @@ span {
 }
 
 .btn {
-  border: 1px solid #fff;
+    background: linear-gradient(50deg, #71c55d 0%, #0C9B68 100%);
+  border: 1px solid linear-gradient(50deg, #71c55d 0%, #0C9B68 100%);
   border-radius: 4px;
   color: #fff;
   font-size: 11px;
@@ -628,6 +629,69 @@ body.mobile-nav-active #mobile-nav-toggle i {
   text-transform: capitalize;
 }
 
+
+
+
+.section-title2 {
+  margin-bottom: 80px;
+}
+
+@media (max-width: 600px) {
+  .section-title2 {
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .seperator2 {
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .section-title2 .separator2 {
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.section-title2 h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  margin-top:35px;
+}
+
+.section-title2 .separator2 {
+  margin: 0;
+
+}
+
+.separator2 {
+  color: #626262;
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  margin-bottom: 30px;
+
+}
+
 /* Get Started Section
 --------------------------------*/
 #get-started {
@@ -1068,13 +1132,15 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #pricing .block-pricing .table h4 {
   padding-bottom: 30px;
   font-size:28px;
+  letter-spacing: 1px;
 }
 
 #pricing .block-pricing h2 {
   margin-bottom: 30px;
     font-size:32px;
     font-weight: 700;
-}
+    letter-spacing: 2px;
+  }
 
 #pricing .block-pricing ul {
   list-style: outside none none;
@@ -1094,7 +1160,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #pricing .block-pricing .table .table_btn a {
-  background: #71c55d;
+    background: linear-gradient(50deg, #71c55d 0%, #0C9B68 100%);
   color: #fff;
   margin: 0;
   display: inline-block;
@@ -1107,6 +1173,25 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #pricing .block-pricing .table .table_btn a .fa {
   font-size: 13px;
   margin-right: 5px;
+}
+
+#pricing .btn-get-started3 {
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(50deg, #71c55d 0%, #0C9B68 100%);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 11px 36px;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-top:20px;
+  transition: 0.5s;
+  margin-bottom: 20px;
+  border: 1px solid linear-gradient(50deg, #71c55d 0%, #5c37ff 100%);
+  color: #fff;
+  text-decoration: none;
 }
 
 /* Blog Section
