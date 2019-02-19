@@ -230,7 +230,7 @@ span {
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 40px;
-  padding-top: 85px;
+  padding-top: 0px;
   font-weight: 300;
   line-height: 58px;
   font-family: "Open Sans", sans-serif;
@@ -1157,7 +1157,8 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #pricing .block-pricing ul li {
   border-bottom: 1px solid rgba(153, 153, 153, 0.3);
-  padding: 12px 0;
+  width:100%;
+  padding: 2.5px 0;
   text-align: center;
 }
 
