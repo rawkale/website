@@ -82,12 +82,12 @@ span {
 
 .btn {
     background: linear-gradient(50deg, #71c55d 0%, #0C9B68 100%);
-  border: 1px solid linear-gradient(50deg, #71c55d 0%, #0C9B68 100%);
-  border-radius: 4px;
+  border: 0px;
+  border-radius: 0px;
   color: #fff;
   font-size: 11px;
   font-weight: 600;
-  padding: 15px 40px;
+  padding: 11px 40px;
   text-transform: uppercase;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -302,7 +302,7 @@ span {
   margin-top:25px;
   transition: 0.5s;
   margin-bottom: 0px;
-  border: 1px solid linear-gradient(50deg, #71c55d 0%, #5c37ff 100%);
+  border: 0px;
   color: #fff;
   text-decoration: none;
 }
@@ -1191,7 +1191,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   letter-spacing: 1px;
   display: inline-block;
   padding: 11px 36px;
-  border-radius: 4px;
+  border-radius: 0px;
   margin-right: 10px;
   margin-top:20px;
   transition: 0.5s;
@@ -1516,12 +1516,12 @@ body.mobile-nav-active #mobile-nav-toggle i {
 --------------------------------*/
 
 #portfolio {
-  padding: 60px 0;
+  padding: 0px 0;
 }
 
 #portfolio #portfolio-flters {
   padding: 0;
-  margin: 5px 0 35px 0;
+  margin: 5px 0 55px 0;
   list-style: none;
   text-align: center;
 }
@@ -1634,7 +1634,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #portfolio .portfolio-item .portfolio-info {
   background: #fff;
   text-align: center;
-  padding: 30px;
+  padding: 40px;
   height: 90px;
   border-radius: 0 0 3px 3px;
 }
@@ -1642,8 +1642,8 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
   line-height: 1px;
-  font-weight: 700;
-  margin-bottom: 18px;
+  font-weight: 400;
+  margin-bottom: 0px;
   padding-bottom: 0;
 }
 
@@ -1659,7 +1659,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   padding: 0;
   margin: 0;
   color: #b8b8b8;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 14px;
   text-transform: uppercase;
 }
